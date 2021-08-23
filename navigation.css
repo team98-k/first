@@ -1,0 +1,39 @@
+#main-navigation{
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.outer-menu-item{
+    float: left;
+    position: relative;
+}
+.outer-menu-item:hover{
+    background: black;
+    color: white;
+}
+.menu-title{
+    display: block;
+    height: 30px; line-height: 30px;
+    text-align: center;
+    padding: 5px 20px;
+}
+.inner-menu{
+    display: none;
+    position: absolute;
+    top: 40px; left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 6px rgba(5, 5, 5, 0.9);
+    z-index: 1000;
+    text-align: center;
+}
+.inner-menu-item>a{
+    display: block;
+    padding: 5px 10px;
+    color: black;
+}
+.inner-menu-item>a:hover{
+    background: black;
+    color: white;
+}

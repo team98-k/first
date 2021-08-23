@@ -1,0 +1,9 @@
+#content{overflow: hidden;}
+#main-section{
+    float: left;
+    width: 710px;
+}
+#main-aside{
+    float: right;
+    width: 200px;
+}

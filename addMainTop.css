@@ -1,0 +1,12 @@
+article{
+    padding: 0 10px 20px 10px;
+    border-bottom: 1px solid #C8C8C8;
+}
+.article-header{padding: 20px 0;}
+.article-title{
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.article-data{font-size: 13px;}
+.article-body{font-size: 14px;}
